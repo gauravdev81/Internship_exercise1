@@ -1,5 +1,5 @@
 """
-A simple python program to do operations on binary numbers like 
+A simple python program to do operations on binary numbers like add,subtract,multiply and divide.
 """
 
 def summation(num1: int, num2: int) -> int:
