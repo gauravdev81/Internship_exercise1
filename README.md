@@ -1,42 +1,38 @@
 # Internship-Exercise-1
-  **PyTestVowels:**
-Counting no. of vowels in a given input string
+  **Calculator:**
+This is a simple calculator program written in python which calculates the addition,subtraction, multiplication and division of two integers.
 
 # User Story:
-As a user, I want to input a string so that I can count the number of vowels in it.The program can handle both lowercase and uppercase vowels.
-
+As a user, I want to be able to add,subtract,multiply and divide two binary numbers.
 # Test Cases:
-***Test Case 01***:
+***Test Case 01 [Summation]***:
 
-&emsp;**Input**: "Hello"
-&emsp;**Expected Result**: 2 (since 'e' and 'o' are vowels)
+&emsp;**Input**: "5 10"
+&emsp;**Expected Result**: 15 (since 5+10 = 15 )
 
-***Test Case 02***:
+***Test Case 02 [Subtraction]***:
  
-&emsp;**Input**:  "PYTHON" 
-&emsp;**Expected Result**: 1 (since 'O' is a vowel)
+&emsp;**Input**:  "7 3" 
+&emsp;**Expected Result**: 4 (since 7-3 = 4 )
 
-***Test Case 03***:
+***Test Case 03 [Multiplication]***:
  
-&emsp;**Input**: "bcd"
-&emsp;**Expected Result**:  0 (no vowels)
+&emsp;**Input**: "3 2"
+&emsp;**Expected Result**:  6 (since 3*2 = 6)
 
-***Test Case 04***:
+***Test Case 04 [Division]***:
 
-&emsp;**Input**: "aeiou" 
+&emsp;**Input**: "10 5" 
 
-&emsp;**Expected Result**: 5  (all letters are vowels)
+&emsp;**Expected Result**: 2  (since 10/5=2)
 
-***Test Case 05***:
 
-&emsp;**Input**: ""
-&emsp;**Expected Result**: Error: No input provided.
 
 # Test Result Summary:
 | S.No 	| Test Method Name                     	| Test Description                                                                                                                     	| Input                          	| Expected Output 	| Actual Output 	|
 |------	|--------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------	|-----------------	|---------------	|
-|   1  	| Basic word Checker                	| Check how many vowels are there in the given string input. 	| "Hello "          	| 2            	| 2        	|
-|   2  	| All uppercase string checker    	| Check number of vowels on all uppecased letters                                                           	| "Python"            	| 1           	| 1        	|
-|   3  	| All lowercase string letters       	| Check number of vowels on all lowercased letters                                                  	| "bcd" 	| 0           	| 0         	|
-|   4  	| All vowel string checker          	| Gives Max number as output                                                                    	| "aeiou"  	|5            	| 5          	|
-|   5  	| No input checker. 	| Check algorithm's response when no input is given                                     	| ""                  	| Error: No input provided          	| Error: No input provided        	|
+|   1  	| Summation                	| Gives the summation of two binary integers as output 	|5 10         	| 15          	| 15        	|
+|   2  	| Subtraction    	| Gives the difference of two binary integers as output                                                        	| 7 3         	| 4          	| 4       	|
+|   3  	| Multiplication       	| Gives the product of two binary integers as output                                                 	| 3 2	|  6          	| 6       	|
+|   4  	| Division          	| Gives the division of two binary integers as output                                                           	| 10 5  	|2            	| 2          	|
+
